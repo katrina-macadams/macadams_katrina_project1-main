@@ -7,21 +7,20 @@
 
 p {
     font-family: 'Kanit', serif;
-    font-size: 14px;
-    letter-spacing: 1px;
+    font-size: 16px;
     line-height: 20px;
     }
 
 span {
-    font-size: 16px;
+    font-size: 22px;
     letter-spacing: 0.5px;
 }
 
 #container {
     margin: 20px auto;
     width: 428px;
-    border: solid 1px #333;
-    background: #efefef;
+    border: solid 3px #FF7A59;
+    background:moccasin;
     border-radius: 10px;
 }
 
@@ -33,13 +32,154 @@ span {
         padding-right: 20px;
 }
 
-#intro {
+/* Article 1 */
+
+
+#blurb_1 {
     font-style: italic;
-    line-height: 24px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+#intro_span {
+    font-size: 34px;
+}
+
+#orange_bot {
+    border-style: solid double solid;
+    border-color: #FF7A59;
+    border-width:4px;
+}
+
+/* Article 2 */ 
+
+.blurb_2 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+#orange_cup {
+    filter: contrast(110%);
+    border-style: ridge;
+    border-color: #FF7A59;
+    border-width: 5px;
+    border-radius: 15px;
 }
 
 article {
     grid-column: 1/-1;
+}
+
+/* Article 3 */
+
+#blurb_3 {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+#soccer_guy {
+    border-style: solid double solid;
+    border-color: dodgerblue;
+    border-width:4px;
+    filter: hue-rotate(190deg);
+    border-radius: 15px;
+}
+
+/* Article 4 */
+
+#blurb_4 {
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+#gym_guy {
+    filter: saturate(2);
+    border-style: ridge;
+    border-color: #FF7A59;
+    border-width: 5px;
+    border-radius: 15px;
+}
+
+/* Article 5 */
+
+#blurb_5 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    font-style: italic;
+}
+
+#orange_glas {
+    border-style: dotted;
+    border-color: #FF7A59;
+    border-width: 4px;
+    border-radius: 15px;
+    filter: saturate(1.5);
+}
+
+.flavors {
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-style: oblique;
+}
+
+/* Article 6 */
+
+#soccer_gras {
+    border-style: solid double solid;
+    border-color: #FF7A59;
+    border-width:4px;
+    border-radius: 15px;
+    filter: opacity(0.7) saturate(1.5)
+}
+
+/* Article 7 */
+
+#soccer_stad {
+    filter: saturate(1.5);
+    border-style: ridge;
+    border-color: #FF7A59;
+    border-width: 5px;
+    border-radius: 15px;
+}
+
+/* Article 8*/
+
+#blurb_8 {
+    font-style: italic;
+}
+
+#soccer_ball {
+    border-style: solid double solid;
+    border-color: #FF7A59;
+    border-width:4px;
+    border-radius: 15px;
+    filter: saturate(2.3)
+}
+
+/* Article 9 */
+
+#blurb_9 {
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 30px;
+}
+
+#end_span {
+    font-size: 34px;
+}
+
+#bike_guy {
+    filter: blur(1.7px) saturate(1.5);
+    border-style: ridge;
+    border-color: #FF7A59;
+    border-width: 5px;
+    border-radius: 15px;
 }
 
 img {
